@@ -1,0 +1,52 @@
+body{
+    background: silver;
+}
+.introContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: transparent;
+    color: black;
+    padding-top: 40px;
+}
+
+
+.introRight h2{
+    font-size: 35px;
+}
+.introRight h2 span{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+.introRight h3{
+    font-size: 55px;
+}
+.introRight p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.introRight button{
+    border: none;
+    border-radius: 20px;
+    background: var(--blue);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.introRight button:hover{
+    scale: 1.2;
+}
+
+
+@media screen and (max-width:840px) {
+    .introRight{
+        padding: 0px 20px;
+    }
+    .profileImg{
+        width: 350px;
+    }
+}

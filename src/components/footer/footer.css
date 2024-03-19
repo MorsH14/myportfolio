@@ -1,0 +1,52 @@
+
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: var(--blue);
+    color: whitesmoke;
+}
+.footerLeft{
+    padding: 10px 0px;
+    color: whitesmoke;
+}
+.footerRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.footerContainer p{
+    padding: 20px 0px;
+    width: 500px;
+}
+.emailFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 20pc 10pc;
+    background: darkblue;
+    color: whitesmoke;
+    width: 100px;   
+    padding: 50px;
+    box-shadow: 5px 5px 5px rgba(228, 212, 71, 0.848);
+    cursor: pointer;
+    font-size: 9px;
+}
+
+
+@media screen and (max-width:800px){
+    .footerLeft h2{
+        padding: 20px 20px;
+    }
+    .footerLeft p{
+        padding: 20px 20px;
+        width: 300px;
+    }
+}

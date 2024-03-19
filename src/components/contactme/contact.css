@@ -1,0 +1,75 @@
+.contactMeMainContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactMeMainContainer h1{
+    padding-top: 80px;
+    color: var(--blue);
+}
+
+.mainContact{
+    padding: 50px 0px;
+    border: none;
+    background: transparent;
+}
+.ccc{
+    padding: 20px 0px;
+}
+.contactContainer{
+    width: 450px;
+    height: 60px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.contactContainerl{
+    width: 450px;
+    height: 250px;
+    resize: none;
+    padding: 10px 20px;
+}
+.contactIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ContactIccon:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all .2s linear;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    
+    .contactContainer{
+        width: 250px;
+        height: 40px;
+        outline: none;
+        padding: 10px 20px;
+    }
+
+    .contactContainerl{
+        width: 250px;
+        height: 150px;
+        resize: none;
+        padding: 10px 20px;
+    }
+    .contactIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        cursor: pointer;
+    }
+    
+}

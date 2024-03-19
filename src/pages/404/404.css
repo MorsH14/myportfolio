@@ -1,0 +1,13 @@
+.errorPage{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: whitesmoke;
+    color: rgb(3, 3, 54);
+}
+
+.errorPage h1{
+    font-size: 100px;
+}
