@@ -4,13 +4,13 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    background: silver;
-    color: yellow;
+    background: white;
+    color: black;
 }
 .aboutContainer h1{
     font-weight: bold;
     padding-top: 60px;
-    color: var(--blue);
+    color: black;
     font-size: 50px;
 }
 .aboutContent{
@@ -36,7 +36,7 @@
     width: 400px;
     border: none;
     border-radius: 10px;
-    background: var(--blue);
+    background: black;
     color: white;
     padding: 20px 10px;
     margin: 20px 0px;

@@ -10,8 +10,7 @@ const Footer = ()=>{
         <div className="footerContainer">
             <div className="footerLeft" id='footer'>
                 <h2>Get in Touch</h2>
-                <p>lorem fv cdsscs cjcsc cjdsvhdshjcs ncks cnhcs djdskjcnm djdjckhs hcss hcscs jnchscs hjv cjsihikcs cshcks chscs cscmb khfkhf</p>
-
+                <p>lorem fv cdsscs cjcsc cjdsvhdshjcs ncks cnhcs djdskjcnm djdjckhs hcss hcscs jnchscs hjv cjsihikcs cshcks chscs cscmb khfkh</p>
                 <p>
                 <FaInstagram size={50}/>
                 <CiLinkedin size={50}/>

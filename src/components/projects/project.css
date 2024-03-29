@@ -5,13 +5,13 @@
     flex-wrap: wrap;
     text-align: center;
     padding: 20px 0px;
-    background: silver;
-    color: var(--blue);
+    background: white;
+    color: black;
 }
 .topProject h1{
     padding: 30px;
     font-size: 55px;
-    color: yellow;
+    color: black;
 }
 .topProject p2{
     padding: 30px;
@@ -47,7 +47,7 @@
 }
 .projextText h3{
     padding: 10px 0px;
-    color: rgb(77, 70, 52);
+    color: black);
 }
 
 
